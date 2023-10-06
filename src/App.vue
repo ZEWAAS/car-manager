@@ -184,8 +184,8 @@ export default {
 
       this.cars.forEach(car => {
 
-        car.display = !car.display;
-
+        car.display = !car.display; 
+        console.log(this.brand + this.model);
       });
 
     },
