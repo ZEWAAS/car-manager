@@ -157,7 +157,7 @@ export default {
  
 
      
-
+        console.log(this.brand + " " + this.model)
        
 
  
@@ -185,7 +185,7 @@ export default {
       this.cars.forEach(car => {
 
         car.display = !car.display; 
-        console.log(this.brand + this.model);
+        console.log(car.brand + " " + car.model);
       });
 
     },
